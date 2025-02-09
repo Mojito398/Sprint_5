@@ -2,15 +2,15 @@ from selenium.webdriver.common.by import By
 
 class ConstructorPageLocators:
     #Локаторы для кнопок Булки
-    BUNS_SECTION_BUTTON = (By.XPATH, "/html/body/div/div/main/section[1]/div[1]")
+    BUNS_SECTION_BUTTON = (By.XPATH, "//span[@class='text text_type_main-default'and text()='Булки']")
     #Локаторы для кнопок Соусы
-    SAUCES_SECTION_BUTTON = (By.XPATH, "/html/body/div/div/main/section[1]/div[1]/div[2]")
+    SAUCES_SECTION_BUTTON = (By.XPATH, "//span[@class='text text_type_main-default'and text()='Соусы']")
     #Локаторы для кнопок Начинки
-    FILLINGS_SECTION_BUTTON = (By.XPATH, "/html/body/div/div/main/section[1]/div[1]/div[3]")
+    FILLINGS_SECTION_BUTTON = (By.XPATH, "//span[@class='text text_type_main-default'and text()='Начинки']")
 
     #Локаторы для заголовков Булки
-    BUNS_SECTION_HEADER = (By.XPATH, "/html/body/div/div/main/section[1]/div[1]")
+    BUNS_SECTION_HEADER = (By.XPATH, "//span[@class='text text_type_main-default'and text()='Булки']")
     #Локаторы для заголовков Соусы
-    SAUCES_SECTION_HEADER = (By.XPATH, "/html/body/div/div/main/section[1]/div[1]/div[2]")
+    SAUCES_SECTION_HEADER = (By.XPATH, "//span[@class='text text_type_main-default'and text()='Соусы']")
     #Локаторы для заголовков Начинки
-    FILLINGS_SECTION_HEADER = (By.XPATH, "/html/body/div/div/main/section[1]/div[1]/div[3]")
+    FILLINGS_SECTION_HEADER = (By.XPATH, "//span[@class='text text_type_main-default'and text()='Начинки']")
