@@ -8,4 +8,4 @@ class PersonalAccountPageLocators:
     LOGO_BUTTON = (By.XPATH, "//div[@class='AppHeader_header__logo__2D0X2']")
 
     # Локатор кнопки выхода
-    SIGN_OUT_BUTTON = (By.XPATH, "//button[@class='Account_button__14Yp3 text text_type_main-medium text_color_inactive']")
+    SIGN_OUT_BUTTON = (By.XPATH, "//button[@class='Account_button__14Yp3 text text_type_main-medium text_color_inactive'and text()='Выход']")

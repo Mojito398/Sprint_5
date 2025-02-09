@@ -17,4 +17,4 @@ class RegistrationPageLocators:
     PASSWORD_ERROR = (By.XPATH, "//p[@class='input__error text_type_main-default']")
 
     # Локатор для сообщения об успешной регистрации
-    SUCCESS_MESSAGE = (By.XPATH, "//a[@class='Auth_link__1fOlj'and text()='Зарегистрироваться']")
+    SUCCESS_MESSAGE = (By.XPATH, "//div[@class='Auth_login__3hAey']")
